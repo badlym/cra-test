@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  debugger
   return (
     <div className="App">
       <header className="App-header">
@@ -19,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+
+        <h1 className={'text-base prose prose-red'}>
+
+    文字预设
+        </h1>
       </header>
     </div>
   );

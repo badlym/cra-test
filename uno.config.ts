@@ -4,7 +4,7 @@ export default defineConfig({
   presets: [
     presetUno({
       attributifyPseudo: true,
-      prefix: 'zgg-',
+      // prefix: 'zgg-',
     }),
     presetAttributify(),
     // @see https://unocss.dev/presets/icons#autoinstall
